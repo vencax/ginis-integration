@@ -1,0 +1,25 @@
+{
+  "name": "ginis-integration",
+  "description": "soap GINIG integratio",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "startdbg": "node -r esm --inspect-brk server.js",
+    "test": "mocha -r esm './test/main.js'",
+    "testbrk": "mocha -r esm --inspect-brk './test/main.js'"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Vaclav Klecanda <vencax77@gmail.com>"
+  },
+  "license": "BSD",
+  "engines": {
+    "node": ">=12.x",
+    "npm": ">=6.x"
+  },
+  "dependencies": {
+    "soap": "^0.31.0"
+  },
+  "devDependencies": {},
+  "private": "false"
+}
